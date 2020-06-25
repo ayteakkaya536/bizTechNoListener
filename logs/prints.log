@@ -1,2 +1,5 @@
-14:03:04.874 [main] INFO  resources.DriverInitilization - Successfully verified RequestQuotePresence
-14:03:04.906 [main] INFO  resources.DriverInitilization - Successfully validated TelecomServices title
+11:21:34.845 [main] INFO  resources.DriverInitilization - Successfully validated phone number
+11:21:35.041 [main] INFO  resources.DriverInitilization - Successfully verified ImageVerizonPresence
+11:21:35.195 [main] INFO  resources.DriverInitilization - Successfully verified RequestQuotePresence
+11:21:35.235 [main] INFO  resources.DriverInitilization - Successfully validated TelecomServices title
+11:24:26.916 [main] INFO  resources.DriverInitilization - Driver is initialized

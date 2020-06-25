@@ -1,0 +1,5 @@
+11:21:17.778 [main] INFO  resources.DriverInitilization - IT Training page imageITTraining is displayed
+11:21:17.986 [main] INFO  resources.DriverInitilization - IT Training page ManuelTestingSelection is verified
+11:21:18.177 [main] INFO  resources.DriverInitilization - IT Training page SAPSelection is verified
+11:21:18.185 [main] INFO  resources.DriverInitilization - Successfully validated IT Training page title
+11:21:34.795 [main] INFO  resources.DriverInitilization - Successfully validated address presence
