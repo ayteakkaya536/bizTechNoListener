@@ -1,0 +1,5 @@
+15:51:37.962 [main] INFO  resources.DriverInitilization - ContactUS page message blank typing is verified
+15:51:38.163 [main] INFO  resources.DriverInitilization - ContactUS page name blank typing is verified
+15:51:38.339 [main] INFO  resources.DriverInitilization - ContactUS page subject blank typing is verified
+15:56:26.173 [main] INFO  resources.DriverInitilization - ContactUS page email blank typing is verified
+15:56:28.453 [main] INFO  resources.DriverInitilization - ContactUS page name error is verified

@@ -1,0 +1,5 @@
+14:02:47.377 [main] INFO  resources.DriverInitilization - IT Training page SAPSelection is verified
+14:02:47.424 [main] INFO  resources.DriverInitilization - Successfully validated IT Training page title
+14:03:04.488 [main] INFO  resources.DriverInitilization - Successfully validated address presence
+14:03:04.590 [main] INFO  resources.DriverInitilization - Successfully validated phone number
+14:03:04.787 [main] INFO  resources.DriverInitilization - Successfully verified ImageVerizonPresence
