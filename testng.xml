@@ -5,11 +5,11 @@
  	
  </listeners>
 	<!-- NOTE= change all the package name with find function  -->
-  <test name="Validating Home page visual">
+  <!--<test name="Validating Home page visual">
 	    <classes>
 	      	<class name="com.biztech2go.TestHomePage"/>
 	    </classes>
-   </test>  
+   </test>  -->
   <!-- <test name="Validating Contact Us page in new Tab">
 	   <classes>
 	   		<class name="com.biztech2go.TestContactUsPage"/>
@@ -24,11 +24,11 @@
 	   <classes>
 	   		<class name="com.biztech2go.TestITTrainingPage"/>
 	   </classes>
-   </test>
+   </test>-->
    <test name="Validating Telecom Servies Page in same Window">
 	   <classes>
 	   		<class name="com.biztech2go.TestTelecomServicesPage"/>
 	   </classes>
-   </test>-->
+   </test>
 
 </suite> <!-- Suite -->
