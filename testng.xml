@@ -10,7 +10,7 @@
 	      	<class name="com.biztech2go.TestHomePage"/>
 	    </classes>
    </test>  
-   <test name="Validating Contact Us page in new Tab">
+  <!-- <test name="Validating Contact Us page in new Tab">
 	   <classes>
 	   		<class name="com.biztech2go.TestContactUsPage"/>
 	   </classes>
@@ -29,6 +29,6 @@
 	   <classes>
 	   		<class name="com.biztech2go.TestTelecomServicesPage"/>
 	   </classes>
-   </test>
+   </test>-->
 
 </suite> <!-- Suite -->
