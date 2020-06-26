@@ -1,193 +1,882 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="31" passed="31">
+<testng-results skipped="1" failed="10" ignored="0" total="31" passed="20">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="103459" started-at="2020-06-25T11:15:08 PDT" finished-at="2020-06-25T11:16:52 PDT">
+  <suite name="Default suite" duration-ms="206192" started-at="2020-06-25T16:23:29 PDT" finished-at="2020-06-25T16:26:55 PDT">
     <groups>
     </groups>
-    <test name="Validating Home page visual" duration-ms="34378" started-at="2020-06-25T11:15:08 PDT" finished-at="2020-06-25T11:15:42 PDT">
-      <class name="com.biztech2go.TestHomePage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.biztech2go.TestHomePage@2925bf5b]" name="initialize" is-config="true" duration-ms="13044" started-at="2020-06-25T11:15:08 PDT" finished-at="2020-06-25T11:15:21 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="bottomCopyRigth()[pri:0, instance:com.biztech2go.TestHomePage@2925bf5b]" name="bottomCopyRigth" duration-ms="888" started-at="2020-06-25T11:15:21 PDT" finished-at="2020-06-25T11:15:22 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bottomCopyRigth -->
-        <test-method status="PASS" signature="hoverITStaffMenu()[pri:0, instance:com.biztech2go.TestHomePage@2925bf5b]" name="hoverITStaffMenu" duration-ms="2466" started-at="2020-06-25T11:15:22 PDT" finished-at="2020-06-25T11:15:25 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hoverITStaffMenu -->
-        <test-method status="PASS" signature="validateIcon()[pri:0, instance:com.biztech2go.TestHomePage@2925bf5b]" name="validateIcon" duration-ms="90" started-at="2020-06-25T11:15:25 PDT" finished-at="2020-06-25T11:15:25 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateIcon -->
-        <test-method status="PASS" signature="verifyAboutUsPage()[pri:0, instance:com.biztech2go.TestHomePage@2925bf5b]" name="verifyAboutUsPage" duration-ms="3193" started-at="2020-06-25T11:15:25 PDT" finished-at="2020-06-25T11:15:28 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAboutUsPage -->
-        <test-method status="PASS" signature="verifyContactUsPage()[pri:0, instance:com.biztech2go.TestHomePage@2925bf5b]" name="verifyContactUsPage" duration-ms="3143" started-at="2020-06-25T11:15:28 PDT" finished-at="2020-06-25T11:15:31 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContactUsPage -->
-        <test-method status="PASS" signature="verifyOurServicesPage()[pri:0, instance:com.biztech2go.TestHomePage@2925bf5b]" name="verifyOurServicesPage" duration-ms="3068" started-at="2020-06-25T11:15:31 PDT" finished-at="2020-06-25T11:15:34 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyOurServicesPage -->
-        <test-method status="PASS" signature="verifyItServicesPage()[pri:0, instance:com.biztech2go.TestHomePage@2925bf5b]" name="verifyItServicesPage" duration-ms="3382" started-at="2020-06-25T11:15:34 PDT" finished-at="2020-06-25T11:15:37 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyItServicesPage -->
-        <test-method status="PASS" signature="verifyMainHowWOperate()[pri:0, instance:com.biztech2go.TestHomePage@2925bf5b]" name="verifyMainHowWOperate" duration-ms="222" started-at="2020-06-25T11:15:37 PDT" finished-at="2020-06-25T11:15:38 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMainHowWOperate -->
-        <test-method status="PASS" signature="verifyMainPageTitle()[pri:0, instance:com.biztech2go.TestHomePage@2925bf5b]" name="verifyMainPageTitle" duration-ms="73" started-at="2020-06-25T11:15:38 PDT" finished-at="2020-06-25T11:15:38 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMainPageTitle -->
-        <test-method status="PASS" signature="verifyMainPageDynamicProposal()[pri:0, instance:com.biztech2go.TestHomePage@2925bf5b]" name="verifyMainPageDynamicProposal" duration-ms="148" started-at="2020-06-25T11:15:38 PDT" depends-on-methods="com.biztech2go.TestHomePage.validateIcon" finished-at="2020-06-25T11:15:38 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMainPageDynamicProposal -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.biztech2go.TestHomePage@2925bf5b]" name="teardown" is-config="true" duration-ms="4537" started-at="2020-06-25T11:15:38 PDT" finished-at="2020-06-25T11:15:42 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.biztech2go.TestHomePage -->
-    </test> <!-- Validating Home page visual -->
-    <test name="Validating Contact Us page in new Tab" duration-ms="19875" started-at="2020-06-25T11:15:43 PDT" finished-at="2020-06-25T11:16:02 PDT">
-      <class name="com.biztech2go.TestContactUsPage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.biztech2go.TestContactUsPage@c0c2f8d]" name="initialize" is-config="true" duration-ms="13990" started-at="2020-06-25T11:15:43 PDT" finished-at="2020-06-25T11:15:57 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="validateEmailBlankTyping()[pri:0, instance:com.biztech2go.TestContactUsPage@c0c2f8d]" name="validateEmailBlankTyping" duration-ms="2197" started-at="2020-06-25T11:15:57 PDT" finished-at="2020-06-25T11:15:59 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateEmailBlankTyping -->
-        <test-method status="PASS" signature="validateEmptyNameEmailError()[pri:0, instance:com.biztech2go.TestContactUsPage@c0c2f8d]" name="validateEmptyNameEmailError" duration-ms="2259" started-at="2020-06-25T11:15:59 PDT" finished-at="2020-06-25T11:16:01 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateEmptyNameEmailError -->
-        <test-method status="PASS" signature="validateMessageBlankTyping()[pri:0, instance:com.biztech2go.TestContactUsPage@c0c2f8d]" name="validateMessageBlankTyping" duration-ms="164" started-at="2020-06-25T11:16:01 PDT" finished-at="2020-06-25T11:16:01 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateMessageBlankTyping -->
-        <test-method status="PASS" signature="validateNameBlankTyping()[pri:0, instance:com.biztech2go.TestContactUsPage@c0c2f8d]" name="validateNameBlankTyping" duration-ms="146" started-at="2020-06-25T11:16:01 PDT" finished-at="2020-06-25T11:16:01 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateNameBlankTyping -->
-        <test-method status="PASS" signature="validateSubjectBlankTyping()[pri:0, instance:com.biztech2go.TestContactUsPage@c0c2f8d]" name="validateSubjectBlankTyping" duration-ms="151" started-at="2020-06-25T11:16:01 PDT" finished-at="2020-06-25T11:16:01 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateSubjectBlankTyping -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.biztech2go.TestContactUsPage@c0c2f8d]" name="teardown" is-config="true" duration-ms="951" started-at="2020-06-25T11:16:01 PDT" finished-at="2020-06-25T11:16:02 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.biztech2go.TestContactUsPage -->
-    </test> <!-- Validating Contact Us page in new Tab -->
-    <test name="Validating About Us page in new Tab" duration-ms="16264" started-at="2020-06-25T11:16:02 PDT" finished-at="2020-06-25T11:16:19 PDT">
+    <test name="Default test" duration-ms="206192" started-at="2020-06-25T16:23:29 PDT" finished-at="2020-06-25T16:26:55 PDT">
       <class name="com.biztech2go.TestAboutUsPage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.biztech2go.TestAboutUsPage@13b6aecc]" name="initialize" is-config="true" duration-ms="12257" started-at="2020-06-25T11:16:02 PDT" finished-at="2020-06-25T11:16:15 PDT">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.biztech2go.TestAboutUsPage@41a2befb]" name="initialize" is-config="true" duration-ms="17561" started-at="2020-06-25T16:23:29 PDT" finished-at="2020-06-25T16:23:46 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="validateHeaderMission()[pri:0, instance:com.biztech2go.TestAboutUsPage@13b6aecc]" name="validateHeaderMission" duration-ms="2088" started-at="2020-06-25T11:16:15 PDT" finished-at="2020-06-25T11:16:17 PDT">
+        <test-method status="PASS" signature="validateHeaderMission()[pri:0, instance:com.biztech2go.TestAboutUsPage@41a2befb]" name="validateHeaderMission" duration-ms="3499" started-at="2020-06-25T16:25:01 PDT" finished-at="2020-06-25T16:25:04 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHeaderMission -->
-        <test-method status="PASS" signature="validateHeaderOurValues()[pri:0, instance:com.biztech2go.TestAboutUsPage@13b6aecc]" name="validateHeaderOurValues" duration-ms="59" started-at="2020-06-25T11:16:17 PDT" finished-at="2020-06-25T11:16:17 PDT">
+        <test-method status="PASS" signature="validateHeaderOurValues()[pri:0, instance:com.biztech2go.TestAboutUsPage@41a2befb]" name="validateHeaderOurValues" duration-ms="297" started-at="2020-06-25T16:25:04 PDT" finished-at="2020-06-25T16:25:05 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHeaderOurValues -->
-        <test-method status="PASS" signature="validateHeaderVision()[pri:0, instance:com.biztech2go.TestAboutUsPage@13b6aecc]" name="validateHeaderVision" duration-ms="54" started-at="2020-06-25T11:16:17 PDT" finished-at="2020-06-25T11:16:17 PDT">
+        <test-method status="PASS" signature="validateHeaderVision()[pri:0, instance:com.biztech2go.TestAboutUsPage@41a2befb]" name="validateHeaderVision" duration-ms="273" started-at="2020-06-25T16:25:05 PDT" finished-at="2020-06-25T16:25:05 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHeaderVision -->
-        <test-method status="PASS" signature="validatePraphBackgroundColor()[pri:0, instance:com.biztech2go.TestAboutUsPage@13b6aecc]" name="validatePraphBackgroundColor" duration-ms="91" started-at="2020-06-25T11:16:17 PDT" finished-at="2020-06-25T11:16:17 PDT">
+        <test-method status="PASS" signature="validatePraphBackgroundColor()[pri:0, instance:com.biztech2go.TestAboutUsPage@41a2befb]" name="validatePraphBackgroundColor" duration-ms="497" started-at="2020-06-25T16:25:05 PDT" finished-at="2020-06-25T16:25:06 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePraphBackgroundColor -->
-        <test-method status="PASS" signature="validatePraphFontSize()[pri:0, instance:com.biztech2go.TestAboutUsPage@13b6aecc]" name="validatePraphFontSize" duration-ms="37" started-at="2020-06-25T11:16:17 PDT" finished-at="2020-06-25T11:16:17 PDT">
+        <test-method status="PASS" signature="validatePraphFontSize()[pri:0, instance:com.biztech2go.TestAboutUsPage@41a2befb]" name="validatePraphFontSize" duration-ms="292" started-at="2020-06-25T16:25:06 PDT" finished-at="2020-06-25T16:25:06 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePraphFontSize -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.biztech2go.TestAboutUsPage@13b6aecc]" name="teardown" is-config="true" duration-ms="1667" started-at="2020-06-25T11:16:17 PDT" finished-at="2020-06-25T11:16:19 PDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.biztech2go.TestAboutUsPage@41a2befb]" name="teardown" is-config="true" duration-ms="1456" started-at="2020-06-25T16:26:53 PDT" finished-at="2020-06-25T16:26:55 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.biztech2go.TestAboutUsPage -->
-    </test> <!-- Validating About Us page in new Tab -->
-    <test name="Validating IT Training Page in new Window" duration-ms="16577" started-at="2020-06-25T11:16:19 PDT" finished-at="2020-06-25T11:16:35 PDT">
-      <class name="com.biztech2go.TestITTrainingPage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.biztech2go.TestITTrainingPage@58a9760d]" name="initialize" is-config="true" duration-ms="12148" started-at="2020-06-25T11:16:19 PDT" finished-at="2020-06-25T11:16:31 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="validateAutomationTestingSelection()[pri:0, instance:com.biztech2go.TestITTrainingPage@58a9760d]" name="validateAutomationTestingSelection" duration-ms="2678" started-at="2020-06-25T11:16:31 PDT" finished-at="2020-06-25T11:16:34 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateAutomationTestingSelection -->
-        <test-method status="PASS" signature="validateDataScienceSelection()[pri:0, instance:com.biztech2go.TestITTrainingPage@58a9760d]" name="validateDataScienceSelection" duration-ms="170" started-at="2020-06-25T11:16:34 PDT" finished-at="2020-06-25T11:16:34 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateDataScienceSelection -->
-        <test-method status="PASS" signature="validateImageITTraining()[pri:0, instance:com.biztech2go.TestITTrainingPage@58a9760d]" name="validateImageITTraining" duration-ms="69" started-at="2020-06-25T11:16:34 PDT" finished-at="2020-06-25T11:16:34 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateImageITTraining -->
-        <test-method status="PASS" signature="validateManuelTestingSelection()[pri:0, instance:com.biztech2go.TestITTrainingPage@58a9760d]" name="validateManuelTestingSelection" duration-ms="214" started-at="2020-06-25T11:16:34 PDT" finished-at="2020-06-25T11:16:34 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateManuelTestingSelection -->
-        <test-method status="PASS" signature="validateSAPSelection()[pri:0, instance:com.biztech2go.TestITTrainingPage@58a9760d]" name="validateSAPSelection" duration-ms="178" started-at="2020-06-25T11:16:34 PDT" finished-at="2020-06-25T11:16:34 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateSAPSelection -->
-        <test-method status="PASS" signature="verifyITTrainingPageTitle()[pri:0, instance:com.biztech2go.TestITTrainingPage@58a9760d]" name="verifyITTrainingPageTitle" duration-ms="18" started-at="2020-06-25T11:16:34 PDT" finished-at="2020-06-25T11:16:34 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyITTrainingPageTitle -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.biztech2go.TestITTrainingPage@58a9760d]" name="teardown" is-config="true" duration-ms="1091" started-at="2020-06-25T11:16:34 PDT" finished-at="2020-06-25T11:16:35 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.biztech2go.TestITTrainingPage -->
-    </test> <!-- Validating IT Training Page in new Window -->
-    <test name="Validating Telecom Servies Page in same Window" duration-ms="16224" started-at="2020-06-25T11:16:35 PDT" finished-at="2020-06-25T11:16:52 PDT">
       <class name="com.biztech2go.TestTelecomServicesPage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.biztech2go.TestTelecomServicesPage@707194ba]" name="initialize" is-config="true" duration-ms="15597" started-at="2020-06-25T11:16:35 PDT" finished-at="2020-06-25T11:16:51 PDT">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.biztech2go.TestTelecomServicesPage@6c40365c]" name="initialize" is-config="true" duration-ms="29118" started-at="2020-06-25T16:24:32 PDT" finished-at="2020-06-25T16:25:01 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="validateAddressPresence()[pri:0, instance:com.biztech2go.TestTelecomServicesPage@707194ba]" name="validateAddressPresence" duration-ms="129" started-at="2020-06-25T11:16:51 PDT" finished-at="2020-06-25T11:16:51 PDT">
+        <test-method status="PASS" signature="validateAddressPresence()[pri:0, instance:com.biztech2go.TestTelecomServicesPage@6c40365c]" name="validateAddressPresence" duration-ms="175" started-at="2020-06-25T16:25:06 PDT" finished-at="2020-06-25T16:25:06 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAddressPresence -->
-        <test-method status="PASS" signature="validatePhoneNumber()[pri:0, instance:com.biztech2go.TestTelecomServicesPage@707194ba]" name="validatePhoneNumber" duration-ms="83" started-at="2020-06-25T11:16:51 PDT" finished-at="2020-06-25T11:16:51 PDT">
+        <test-method status="PASS" signature="validatePhoneNumber()[pri:0, instance:com.biztech2go.TestTelecomServicesPage@6c40365c]" name="validatePhoneNumber" duration-ms="171" started-at="2020-06-25T16:25:06 PDT" finished-at="2020-06-25T16:25:06 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePhoneNumber -->
-        <test-method status="PASS" signature="verifyImageVerizonPresence()[pri:0, instance:com.biztech2go.TestTelecomServicesPage@707194ba]" name="verifyImageVerizonPresence" duration-ms="67" started-at="2020-06-25T11:16:51 PDT" finished-at="2020-06-25T11:16:51 PDT">
+        <test-method status="PASS" signature="verifyImageVerizonPresence()[pri:0, instance:com.biztech2go.TestTelecomServicesPage@6c40365c]" name="verifyImageVerizonPresence" duration-ms="214" started-at="2020-06-25T16:25:06 PDT" finished-at="2020-06-25T16:25:06 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyImageVerizonPresence -->
-        <test-method status="PASS" signature="verifyRequestQuotePresence()[pri:0, instance:com.biztech2go.TestTelecomServicesPage@707194ba]" name="verifyRequestQuotePresence" duration-ms="61" started-at="2020-06-25T11:16:51 PDT" finished-at="2020-06-25T11:16:51 PDT">
+        <test-method status="PASS" signature="verifyRequestQuotePresence()[pri:0, instance:com.biztech2go.TestTelecomServicesPage@6c40365c]" name="verifyRequestQuotePresence" duration-ms="213" started-at="2020-06-25T16:25:06 PDT" finished-at="2020-06-25T16:25:07 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRequestQuotePresence -->
-        <test-method status="PASS" signature="verifyTelecomServicesTitle()[pri:0, instance:com.biztech2go.TestTelecomServicesPage@707194ba]" name="verifyTelecomServicesTitle" duration-ms="16" started-at="2020-06-25T11:16:51 PDT" finished-at="2020-06-25T11:16:51 PDT">
+        <test-method status="PASS" signature="verifyTelecomServicesTitle()[pri:0, instance:com.biztech2go.TestTelecomServicesPage@6c40365c]" name="verifyTelecomServicesTitle" duration-ms="100" started-at="2020-06-25T16:25:07 PDT" finished-at="2020-06-25T16:25:07 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTelecomServicesTitle -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.biztech2go.TestTelecomServicesPage@707194ba]" name="teardown" is-config="true" duration-ms="265" started-at="2020-06-25T11:16:51 PDT" finished-at="2020-06-25T11:16:52 PDT">
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.biztech2go.TestTelecomServicesPage@6c40365c]" name="teardown" is-config="true" duration-ms="-1593127615437" started-at="2020-06-25T16:26:55 PDT" finished-at="1969-12-31T16:00:00 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.biztech2go.TestTelecomServicesPage -->
-    </test> <!-- Validating Telecom Servies Page in same Window -->
-  </suite> <!-- Suite -->
+      <class name="com.biztech2go.TestContactUsPage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.biztech2go.TestContactUsPage@7bedc48a]" name="initialize" is-config="true" duration-ms="13286" started-at="2020-06-25T16:23:46 PDT" finished-at="2020-06-25T16:24:00 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateEmailBlankTyping()[pri:0, instance:com.biztech2go.TestContactUsPage@7bedc48a]" name="validateEmailBlankTyping" duration-ms="5071" started-at="2020-06-25T16:25:07 PDT" finished-at="2020-06-25T16:25:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmailBlankTyping -->
+        <test-method status="PASS" signature="validateEmptyNameEmailError()[pri:0, instance:com.biztech2go.TestContactUsPage@7bedc48a]" name="validateEmptyNameEmailError" duration-ms="3455" started-at="2020-06-25T16:25:12 PDT" finished-at="2020-06-25T16:25:15 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmptyNameEmailError -->
+        <test-method status="PASS" signature="validateMessageBlankTyping()[pri:0, instance:com.biztech2go.TestContactUsPage@7bedc48a]" name="validateMessageBlankTyping" duration-ms="2763" started-at="2020-06-25T16:25:15 PDT" finished-at="2020-06-25T16:25:18 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMessageBlankTyping -->
+        <test-method status="PASS" signature="validateNameBlankTyping()[pri:0, instance:com.biztech2go.TestContactUsPage@7bedc48a]" name="validateNameBlankTyping" duration-ms="3470" started-at="2020-06-25T16:25:18 PDT" finished-at="2020-06-25T16:25:21 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNameBlankTyping -->
+        <test-method status="PASS" signature="validateSubjectBlankTyping()[pri:0, instance:com.biztech2go.TestContactUsPage@7bedc48a]" name="validateSubjectBlankTyping" duration-ms="4229" started-at="2020-06-25T16:25:21 PDT" finished-at="2020-06-25T16:25:26 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSubjectBlankTyping -->
+        <test-method status="FAIL" signature="teardown()[pri:0, instance:com.biztech2go.TestContactUsPage@7bedc48a]" name="teardown" is-config="true" duration-ms="2" started-at="2020-06-25T16:26:55 PDT" finished-at="2020-06-25T16:26:55 PDT">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.biztech2go.TestContactUsPage.teardown(TestContactUsPage.java:100)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
+at org.testng.TestRunner.afterRun(TestRunner.java:849)
+at org.testng.TestRunner.run(TestRunner.java:590)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.biztech2go.TestContactUsPage -->
+      <class name="com.biztech2go.TestITTrainingPage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.biztech2go.TestITTrainingPage@131ef10]" name="initialize" is-config="true" duration-ms="18624" started-at="2020-06-25T16:24:13 PDT" finished-at="2020-06-25T16:24:32 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateAutomationTestingSelection()[pri:0, instance:com.biztech2go.TestITTrainingPage@131ef10]" name="validateAutomationTestingSelection" duration-ms="3420" started-at="2020-06-25T16:25:26 PDT" finished-at="2020-06-25T16:25:29 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAutomationTestingSelection -->
+        <test-method status="PASS" signature="validateDataScienceSelection()[pri:0, instance:com.biztech2go.TestITTrainingPage@131ef10]" name="validateDataScienceSelection" duration-ms="946" started-at="2020-06-25T16:25:29 PDT" finished-at="2020-06-25T16:25:30 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDataScienceSelection -->
+        <test-method status="PASS" signature="validateImageITTraining()[pri:0, instance:com.biztech2go.TestITTrainingPage@131ef10]" name="validateImageITTraining" duration-ms="303" started-at="2020-06-25T16:25:30 PDT" finished-at="2020-06-25T16:25:30 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateImageITTraining -->
+        <test-method status="PASS" signature="validateManuelTestingSelection()[pri:0, instance:com.biztech2go.TestITTrainingPage@131ef10]" name="validateManuelTestingSelection" duration-ms="350" started-at="2020-06-25T16:25:30 PDT" finished-at="2020-06-25T16:25:31 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateManuelTestingSelection -->
+        <test-method status="PASS" signature="validateSAPSelection()[pri:0, instance:com.biztech2go.TestITTrainingPage@131ef10]" name="validateSAPSelection" duration-ms="1495" started-at="2020-06-25T16:25:31 PDT" finished-at="2020-06-25T16:25:32 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSAPSelection -->
+        <test-method status="FAIL" signature="verifyITTrainingPageTitle()[pri:0, instance:com.biztech2go.TestITTrainingPage@131ef10]" name="verifyITTrainingPageTitle" duration-ms="98" started-at="2020-06-25T16:25:32 PDT" finished-at="2020-06-25T16:25:32 PDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [IT Training | BizTech2go] but found [Telecom Infrastructure and Construction Services – Tower Solutions – Installation, Maintenance and Deconstruction]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [IT Training | BizTech2go] but found [Telecom Infrastructure and Construction Services – Tower Solutions – Installation, Maintenance and Deconstruction]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.biztech2go.TestITTrainingPage.verifyITTrainingPageTitle(TestITTrainingPage.java:46)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyITTrainingPageTitle -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.biztech2go.TestITTrainingPage@131ef10]" name="teardown" is-config="true" duration-ms="-1593127615435" started-at="2020-06-25T16:26:55 PDT" finished-at="1969-12-31T16:00:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.biztech2go.TestITTrainingPage -->
+      <class name="com.biztech2go.TestHomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.biztech2go.TestHomePage@55b0dcab]" name="initialize" is-config="true" duration-ms="13534" started-at="2020-06-25T16:24:00 PDT" finished-at="2020-06-25T16:24:13 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="bottomCopyRigth()[pri:0, instance:com.biztech2go.TestHomePage@55b0dcab]" name="bottomCopyRigth" duration-ms="10705" started-at="2020-06-25T16:25:32 PDT" finished-at="2020-06-25T16:25:43 PDT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/footer/div/div[2]/div/div/div/div/p"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LCC7PQK', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\aytea\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7cc0089a70c2e1b0018d78ea3192007f
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/footer/div/div[2]/div/div/div/div/p}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/footer/div/div[2]/div/div/div/div/p"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LCC7PQK', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\aytea\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7cc0089a70c2e1b0018d78ea3192007f
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/footer/div/div[2]/div/div/div/div/p}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pageObjects.MainPage.getbottomCopyRigth(MainPage.java:81)
+at com.biztech2go.TestHomePage.bottomCopyRigth(TestHomePage.java:62)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bottomCopyRigth -->
+        <test-method status="FAIL" signature="hoverITStaffMenu()[pri:0, instance:com.biztech2go.TestHomePage@55b0dcab]" name="hoverITStaffMenu" duration-ms="10111" started-at="2020-06-25T16:25:43 PDT" finished-at="2020-06-25T16:25:53 PDT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="nav-menu-item-5510"]/a/span/span[1]/span[2]"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LCC7PQK', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\aytea\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7cc0089a70c2e1b0018d78ea3192007f
+*** Element info: {Using=xpath, value=//*[@id="nav-menu-item-5510"]/a/span/span[1]/span[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="nav-menu-item-5510"]/a/span/span[1]/span[2]"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LCC7PQK', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\aytea\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7cc0089a70c2e1b0018d78ea3192007f
+*** Element info: {Using=xpath, value=//*[@id="nav-menu-item-5510"]/a/span/span[1]/span[2]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pageObjects.MainPage.gethoverITStaff(MainPage.java:72)
+at com.biztech2go.TestHomePage.hoverITStaffMenu(TestHomePage.java:71)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverITStaffMenu -->
+        <test-method status="FAIL" signature="validateIcon()[pri:0, instance:com.biztech2go.TestHomePage@55b0dcab]" name="validateIcon" duration-ms="10035" started-at="2020-06-25T16:25:53 PDT" finished-at="2020-06-25T16:26:03 PDT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"body > div.qodef-wrapper > div > header.qodef-page-header > div > div > div > div.qodef-position-left > div > div > a > img.qodef-light-logo"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LCC7PQK', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\aytea\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7cc0089a70c2e1b0018d78ea3192007f
+*** Element info: {Using=css selector, value=body > div.qodef-wrapper > div > header.qodef-page-header > div > div > div > div.qodef-position-left > div > div > a > img.qodef-light-logo}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"body > div.qodef-wrapper > div > header.qodef-page-header > div > div > div > div.qodef-position-left > div > div > a > img.qodef-light-logo"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LCC7PQK', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\aytea\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7cc0089a70c2e1b0018d78ea3192007f
+*** Element info: {Using=css selector, value=body > div.qodef-wrapper > div > header.qodef-page-header > div > div > div > div.qodef-position-left > div > div > a > img.qodef-light-logo}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pageObjects.MainPage.getIcon(MainPage.java:42)
+at com.biztech2go.TestHomePage.validateIcon(TestHomePage.java:51)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIcon -->
+        <test-method status="FAIL" signature="verifyAboutUsPage()[pri:0, instance:com.biztech2go.TestHomePage@55b0dcab]" name="verifyAboutUsPage" duration-ms="10069" started-at="2020-06-25T16:26:03 PDT" finished-at="2020-06-25T16:26:13 PDT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/header[1]/div/div/div/div[2]/div/nav/ul/li[2]/a"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LCC7PQK', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\aytea\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7cc0089a70c2e1b0018d78ea3192007f
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/header[1]/div/div/div/div[2]/div/nav/ul/li[2]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/header[1]/div/div/div/div[2]/div/nav/ul/li[2]/a"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LCC7PQK', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\aytea\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7cc0089a70c2e1b0018d78ea3192007f
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/header[1]/div/div/div/div[2]/div/nav/ul/li[2]/a}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pageObjects.MainPage.getNewPageAboutUs(MainPage.java:96)
+at com.biztech2go.TestHomePage.verifyAboutUsPage(TestHomePage.java:108)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAboutUsPage -->
+        <test-method status="FAIL" signature="verifyContactUsPage()[pri:0, instance:com.biztech2go.TestHomePage@55b0dcab]" name="verifyContactUsPage" duration-ms="10056" started-at="2020-06-25T16:26:13 PDT" finished-at="2020-06-25T16:26:23 PDT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/header[1]/div/div/div/div[2]/div/nav/ul/li[7]/a/span/span[1]/span[2]"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LCC7PQK', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\aytea\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7cc0089a70c2e1b0018d78ea3192007f
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/header[1]/div/div/div/div[2]/div/nav/ul/li[7]/a/span/span[1]/span[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/header[1]/div/div/div/div[2]/div/nav/ul/li[7]/a/span/span[1]/span[2]"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LCC7PQK', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\aytea\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7cc0089a70c2e1b0018d78ea3192007f
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/header[1]/div/div/div/div[2]/div/nav/ul/li[7]/a/span/span[1]/span[2]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pageObjects.MainPage.getNewPageContactUs(MainPage.java:100)
+at com.biztech2go.TestHomePage.verifyContactUsPage(TestHomePage.java:116)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUsPage -->
+        <test-method status="FAIL" signature="verifyOurServicesPage()[pri:0, instance:com.biztech2go.TestHomePage@55b0dcab]" name="verifyOurServicesPage" duration-ms="10047" started-at="2020-06-25T16:26:23 PDT" finished-at="2020-06-25T16:26:33 PDT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/header[1]/div/div/div/div[2]/div/nav/ul/li[3]/a"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LCC7PQK', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\aytea\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7cc0089a70c2e1b0018d78ea3192007f
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/header[1]/div/div/div/div[2]/div/nav/ul/li[3]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/header[1]/div/div/div/div[2]/div/nav/ul/li[3]/a"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LCC7PQK', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\aytea\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7cc0089a70c2e1b0018d78ea3192007f
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/header[1]/div/div/div/div[2]/div/nav/ul/li[3]/a}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pageObjects.MainPage.getNewPageOurServices(MainPage.java:104)
+at com.biztech2go.TestHomePage.verifyOurServicesPage(TestHomePage.java:124)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOurServicesPage -->
+        <test-method status="FAIL" signature="verifyItServicesPage()[pri:0, instance:com.biztech2go.TestHomePage@55b0dcab]" name="verifyItServicesPage" duration-ms="10014" started-at="2020-06-25T16:26:33 PDT" finished-at="2020-06-25T16:26:43 PDT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/header[1]/div/div/div/div[2]/div/nav/ul/li[5]/a/span/span[1]/span[2]"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LCC7PQK', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\aytea\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7cc0089a70c2e1b0018d78ea3192007f
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/header[1]/div/div/div/div[2]/div/nav/ul/li[5]/a/span/span[1]/span[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/header[1]/div/div/div/div[2]/div/nav/ul/li[5]/a/span/span[1]/span[2]"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LCC7PQK', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\aytea\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7cc0089a70c2e1b0018d78ea3192007f
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/header[1]/div/div/div/div[2]/div/nav/ul/li[5]/a/span/span[1]/span[2]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pageObjects.MainPage.getNewPageItTraining(MainPage.java:108)
+at com.biztech2go.TestHomePage.verifyItServicesPage(TestHomePage.java:132)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItServicesPage -->
+        <test-method status="FAIL" signature="verifyMainHowWOperate()[pri:0, instance:com.biztech2go.TestHomePage@55b0dcab]" name="verifyMainHowWOperate" duration-ms="10062" started-at="2020-06-25T16:26:43 PDT" finished-at="2020-06-25T16:26:53 PDT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/div/div[2]/div/div[6]/div/div/div/div/div/div[1]/h4"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LCC7PQK', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\aytea\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7cc0089a70c2e1b0018d78ea3192007f
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/div/div[2]/div/div[6]/div/div/div/div/div/div[1]/h4}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/div/div[2]/div/div[6]/div/div/div/div/div/div[1]/h4"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LCC7PQK', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\aytea\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7cc0089a70c2e1b0018d78ea3192007f
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/div/div[2]/div/div[6]/div/div/div/div/div/div[1]/h4}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pageObjects.MainPage.getScrollHowWOperate(MainPage.java:87)
+at com.biztech2go.TestHomePage.verifyMainHowWOperate(TestHomePage.java:100)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainHowWOperate -->
+        <test-method status="FAIL" signature="verifyMainPageTitle()[pri:0, instance:com.biztech2go.TestHomePage@55b0dcab]" name="verifyMainPageTitle" duration-ms="22" started-at="2020-06-25T16:26:53 PDT" finished-at="2020-06-25T16:26:53 PDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [BizTech2go | Technology on the Go] but found [Telecom Infrastructure and Construction Services – Tower Solutions – Installation, Maintenance and Deconstruction]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [BizTech2go | Technology on the Go] but found [Telecom Infrastructure and Construction Services – Tower Solutions – Installation, Maintenance and Deconstruction]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.biztech2go.TestHomePage.verifyMainPageTitle(TestHomePage.java:82)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainPageTitle -->
+        <test-method status="SKIP" signature="verifyMainPageDynamicProposal()[pri:0, instance:com.biztech2go.TestHomePage@55b0dcab]" name="verifyMainPageDynamicProposal" duration-ms="0" started-at="2020-06-25T16:26:53 PDT" depends-on-methods="com.biztech2go.TestHomePage.validateIcon" finished-at="2020-06-25T16:26:53 PDT">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestHomePage.verifyMainPageDynamicProposal()[pri:0, instance:com.biztech2go.TestHomePage@55b0dcab] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestHomePage.verifyMainPageDynamicProposal()[pri:0, instance:com.biztech2go.TestHomePage@55b0dcab] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainPageDynamicProposal -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.biztech2go.TestHomePage@55b0dcab]" name="teardown" is-config="true" duration-ms="-1593127615433" started-at="2020-06-25T16:26:55 PDT" finished-at="1969-12-31T16:00:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.biztech2go.TestHomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

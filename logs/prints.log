@@ -1,5 +1,6 @@
-11:21:34.845 [main] INFO  resources.DriverInitilization - Successfully validated phone number
-11:21:35.041 [main] INFO  resources.DriverInitilization - Successfully verified ImageVerizonPresence
-11:21:35.195 [main] INFO  resources.DriverInitilization - Successfully verified RequestQuotePresence
-11:21:35.235 [main] INFO  resources.DriverInitilization - Successfully validated TelecomServices title
-11:24:26.916 [main] INFO  resources.DriverInitilization - Driver is initialized
+19:48:20.372 [main] INFO  resources.DriverInitilization - Successfully verified RequestQuotePresence
+20:01:01.009 [main] INFO  resources.DriverInitilization - Driver is initialized
+20:01:12.772 [main] INFO  resources.DriverInitilization - Navigated to Home page
+20:01:18.850 [main] INFO  resources.DriverInitilization - Successfully validated bottom of the page
+20:02:18.268 [main] INFO  resources.DriverInitilization - Successfully validated Main page scroll How we Operate
+20:02:19.322 [main] INFO  resources.DriverInitilization - Successfully validated Main page title
